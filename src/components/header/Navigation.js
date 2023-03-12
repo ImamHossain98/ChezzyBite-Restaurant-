@@ -19,7 +19,7 @@ class Navigation extends Component {
     render() {
         return (
             <div>
-                <Navbar color="dark" dark expand="sm">
+                <Navbar color="dark" dark expand="sm"> 
                     <div className='container'>
                         <NavbarToggler onClick={this.navToggle} />
                         <NavbarBrand >ChezzyBite Restaurant</NavbarBrand>
