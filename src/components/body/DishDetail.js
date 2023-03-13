@@ -9,7 +9,7 @@ const DishDetail = (props) => {
                 <CardImg top src={props.dish.image} alt={props.dish.name} />
 
                 <CardBody style={{ textAlign: "left" }}>
-                    <CardTitle>{props.dish.name} </CardTitle>
+                    <CardTitle style={{ font: "20" }}>{props.dish.name} </CardTitle>
                     <CardText>
                         {props.dish.description}
                     </CardText>
@@ -19,7 +19,7 @@ const DishDetail = (props) => {
 
                     <hr />
 
-                    <LoadComments comments={props.dish.comments} />
+                    <LoadComments comments={props.comments} />
 
                 </CardBody>
 

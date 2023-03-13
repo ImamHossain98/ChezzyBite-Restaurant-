@@ -14,7 +14,7 @@ const body = () => {
                 <Route path="/menu" element={<Menu />} exact />
                 <Route path="/contact" element={<Contact />} exact />
                 <Route path="/about" element={<About />} exact />
-                <Route path="/" element={<Navigate to="home" />} exact />
+                <Route path="/" element={<Navigate to="/home" />} exact />
 
                 {/* <Route path='/' exact component={<Home/>} ><Route/>
                 <Route path='/menu' exact component={Menu} ><Route/>
